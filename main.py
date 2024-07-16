@@ -5,6 +5,7 @@ import numpy as np
 
 # Load an audio file
 filename = 'data/audio-clips/sample-1.wav'
+
 y, sr = librosa.load(filename)
 
 # Plot the waveform
